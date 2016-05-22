@@ -11,7 +11,8 @@ namespace OnionRepo.SqlRepositories
 
     public class ContactRepository : IContactRepository {
         public IEnumerable<Contact> GetContacts() {
-            throw new NotImplementedException();
+            var dbContext = new AppDbContext();
+            return dbContext.Contacts.ToList();
         }
 
     }
