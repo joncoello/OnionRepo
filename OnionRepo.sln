@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionRepo.SqlRepositories", "OnionRepo.SqlRepositories\OnionRepo.SqlRepositories.csproj", "{5AA12DE2-0695-42F0-BD75-24E60D708B35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionRepo.SqlRepositoriesTests", "OnionRepo.SqlRepositoriesTests\OnionRepo.SqlRepositoriesTests.csproj", "{FEB0EF3F-6A0E-41A8-90D5-A04C9E7D9452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionRepo.DomainModel", "OnionRepo.DomainModel\OnionRepo.DomainModel.csproj", "{50AC4500-A819-4D3E-BEBE-8BB1AEDBB59A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AA12DE2-0695-42F0-BD75-24E60D708B35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA12DE2-0695-42F0-BD75-24E60D708B35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA12DE2-0695-42F0-BD75-24E60D708B35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA12DE2-0695-42F0-BD75-24E60D708B35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB0EF3F-6A0E-41A8-90D5-A04C9E7D9452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB0EF3F-6A0E-41A8-90D5-A04C9E7D9452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB0EF3F-6A0E-41A8-90D5-A04C9E7D9452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB0EF3F-6A0E-41A8-90D5-A04C9E7D9452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50AC4500-A819-4D3E-BEBE-8BB1AEDBB59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50AC4500-A819-4D3E-BEBE-8BB1AEDBB59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50AC4500-A819-4D3E-BEBE-8BB1AEDBB59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50AC4500-A819-4D3E-BEBE-8BB1AEDBB59A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
